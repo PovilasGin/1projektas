@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    text-align: left;
+    align-items: center;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+
+h2{
+   
+    font-size: 22px;
+    color: #298A08;
+}
+.cont{
+    margin: auto;
+    display: flex
+}
+h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.container{
+   
+    margin-top: 40px;
+    width: 50%;
+    justify-content: space-around;
+    text-align: left;
+    margin: 40px 1%;
+
+}
+.right-side, .left-side{
+    width: 45%;
+}
+.landing-page{
+    display: flex;
+     justify-content: center;
+    margin-top: 50px;
+}
+
+.plan h4{
+    margin-bottom: 25px;
+    
+}
+.nr h4, .email h4, .adress h4{
+    width: 75%;
+  
+}
+.nr i, .email i, .adress i{
+    font-size: 20px;
+   
+    
+}
+.nr, .email, .adress{
+    display: flex;
+    justify-content: space-around;
+}
+.right-side{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px lightgrey;
+}
+.contact{
+    padding: 5% 5%;
+   
+}
+.contact h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.name input{
+    width: 45%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+    border-radius: 5px;
+   border: 1px solid lightgrey;
+}
+.mess{
+    
+    display: block;
+ 
+    
+}
+.mess input{
+    width: 97%;
+    padding-top: 15px;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 15px;
+   padding-bottom: 100px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.submit{
+    margin-top: 28px;
+    background: black;
+    color: white;
+    padding: 15px 25px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+.icons i{
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px 20px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5px;
+    margin: 10px 20px;
+}
